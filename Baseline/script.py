@@ -15,7 +15,7 @@ import numpy as np
 from sklearn.metrics import accuracy_score, precision_recall_fscore_support
 
 # Configurations
-model_path = "distilgpt2"  # Fixed model path
+model_path = "distilbert/distilgpt2"
 data_path = "../data/processed_data/train.json"
 output_path = "../output"
 
